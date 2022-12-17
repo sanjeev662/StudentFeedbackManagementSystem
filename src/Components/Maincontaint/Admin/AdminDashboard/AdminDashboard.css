@@ -1,0 +1,29 @@
+.dashboard{
+  text-align: -webkit-center;
+}
+
+.abc{
+    display: block;
+}
+
+#tablebody {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    padding-left: 13%;
+    text-align: center;
+  }
+  
+  #tablebody td, #tablebody th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tablebody tr:nth-child(even){background-color: #cfabab;}
+  
+  #tablebody tr:hover {background-color: rgb(153, 150, 150);}
+  
+  #tablebody th {
+    background-color: #04AA6D;
+    color: rgb(248, 193, 193);
+  }

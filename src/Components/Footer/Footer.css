@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    height: 8vh;
+    margin-bottom: 0rem;
+    background-color: #ff0000;
+    color:white;
+}
+
+.col{
+    display: flex;
+    position:relative;   
+    flex: 1;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 2rem;
+  }
+
+
+  .f-icons{
+    padding-top: 0.8rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    
+  }
+
+  .f-each-icons{
+    color:white;
+  }
+  
+  .f-each-icons:hover{
+    cursor:pointer;
+    color:var(--gray);
+  }
+
+  .f-footer{
+    padding-left: 6rem;
+  }

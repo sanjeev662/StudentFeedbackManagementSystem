@@ -1,0 +1,60 @@
+ .p-col {
+    width: 50%;
+    margin-left: 22%;
+  }
+  
+  .p-cards {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius:7px;
+  }
+
+  button
+  {
+    border-width: 2px;
+    border-radius: 3px;
+    display:inline-block;
+    padding:6px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    font-weight: bold;
+    color:inherit;
+    background-color:var(--orangeCard);
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin:1rem;
+  }
+
+  button:hover
+  {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 6px 18px;
+    margin: 6px 0;
+    border-radius: 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+ 
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .p-col 
+    {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+

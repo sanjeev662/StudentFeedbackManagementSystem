@@ -1,0 +1,24 @@
+.about{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 8vh;
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.6);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.a-left{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column ;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.a-right{
+    display:flex;
+    padding-right: 0.5rem;
+}

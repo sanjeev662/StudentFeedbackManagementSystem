@@ -1,0 +1,51 @@
+.n-wrapper{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff0000;    
+}
+
+.n-left{
+    flex:1;
+    align-items: center;
+    display: flex;
+}
+
+.n-name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+.n-right{
+    display: flex;
+    flex:1;
+    align-items:center;
+    justify-content: center;
+    font-weight:400;
+}
+
+.n-list{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    gap:3rem;
+    margin-right:2rem;
+}
+
+.n-wrapper a{
+    color:white;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.n-wrapper a:hover{
+    color:yellow;
+}
+
+
+
+.n-list:hover{
+    cursor: pointer;
+    color: var(--orange);
+}

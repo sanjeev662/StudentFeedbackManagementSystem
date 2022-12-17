@@ -1,0 +1,86 @@
+.home{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin-top: 10px;
+  }
+
+  .i-button{
+    width:12rem;
+    height: 2rem;
+    font-weight: bold;
+  }
+
+  .i-icons{
+    margin-top:2.6rem;
+    display: flex;
+    gap:0rem;
+  }
+
+  .i-icons>*{
+        transform: scale(0.6);
+        border-radius: 25px;
+  }
+
+  .i-icons>*:hover{
+    cursor:pointer;
+    box-shadow: 8px 8px 10px  yellowgreen;
+  }
+
+  .i-right {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+  #myVideo {
+    position:fixed;
+    right: 0;
+    top: 10vh;
+    min-width: 100vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: relative;
+    display: flex;
+    margin-top: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: -1rem;
+  }
